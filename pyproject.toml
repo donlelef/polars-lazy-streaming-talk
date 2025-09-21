@@ -1,0 +1,12 @@
+[project]
+name = "polars-lazy-streaming-talk"
+version = "0.1.0"
+description = "Support material for the talk 'Advanced Polars: Lazy Queries and Streaming Mode'"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo>=0.16.0",
+    "matplotlib>=3.10.6",
+    "pandas>=2.3.2",
+    "polars>=1.33.1",
+]
