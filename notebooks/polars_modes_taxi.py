@@ -154,7 +154,6 @@ def _(mo):
     Now, let's run the query without any optimisations and measure the elapsed time.
 
     Please keep in mind that the efficiency provided by Polars' Rust engine and Apache Arrow is still being harnessed.
-
     """
     )
     return
@@ -193,7 +192,6 @@ def _(mo):
     In the following cells, we will compare the execution graphs of both queries and highlight how projections and filters are pushed down to the data reading operations. This ensures that the query performs the minimum number of operations possible.
 
     For more details on these optimisations, refer to the slides of the talk.
-
     """
     )
     return
