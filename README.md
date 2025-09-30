@@ -3,7 +3,9 @@
 Welcome! This repository contains the code for the Advanced Polars talk, first delivered at PyData Paris 2025.
 
 ## Getting started
-Check out the [slides](slides.pdf) for an overview of the talk content and background information.
+Check out the [slides](slides/Advanced%20Polars%20Lazy%20Queries%20and%20Streaming%20Mode.pdf) for an overview of the talk content and background information.
+
+Clone the repository - mind that the data files are stored using [git-lfs](https://git-lfs.com/).
 
 Then, install uv following the [official documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
